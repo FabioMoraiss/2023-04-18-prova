@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    margin: auto 90px
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex ;
+    justify-content: space-between;
+}
+
+header {
+    background: no-repeat center/cover url("https://www.passagenspromo.com.br/blog/wp-content/uploads/2020/02/turismo-no-brasil-fernando-de-noronha.jpg");
+    height: calc(100vh - 200px);
+}
+
+header img {
+    height: 50px;
+    width: 60px;
+}
+
+header h1{
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 3.5rem;
+    max-width: 400px;
+    margin: 150px auto;
+    text-align: center;
+}
+.pais ul{
+    list-style: none;
+    display: flex ;
+}
+
+.blocos {
+    background: aqua;
+    padding: 15px;
+}
+
+.blocos .blocos-card {
+    display: flex;
+    margin: auto;
+    max-width: 950px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.blocos .card-image {
+    width: 250px;
+    height: 200px;
+    border-radius: 24px 0 0 0;
+}
+
+.blocos .card {
+    width: 250px;
+    height: 350px;
+    background: white;
+    border-radius: 24px 0;
+    margin: 24px;
+    position: relative;
+}
+
+.blocos .card-content {
+    padding: 0 15px;
+}
+
+.blocos .card-content ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.blocos .card-content ul li {
+    font-size: 0.6rem;
+    display: flex;
+    align-items: center;
+    margin:  3px 0;
+    color: gray;
+    font-size: bold;
+}
+
+.blocos .card-content ul li svg {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+/* RELATO */
+.relato {
+    background: no-repeat center/cover url("https://www.segueviagem.com.br/wp-content/uploads/2022/01/Praia-de-Copacabana-Rio-de-Janeiro-shutterstock_1369316819.jpg");
+    height: calc(100vh - 500px);
+}
+
+.relato h1{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.relato p{
+    margin: 20px;
+}
+
+
+/* CONTATOS */
+
+.contatos i{
+    width: 15px;
+    height: 15px;
+}
+.contatos {
+    background-color: red;
+    height: 600px;
+    
+}
+
+.contatos .contatos-tittle{
+    width: 100%;
+    text-align: center;
+    margin: 25px 0;
+    font-size: 3rem;
+}
+
+.contatos .informacoes li{
+    list-style: none;
+    display:flex;
+    margin-top: 25px;
+    max-width: 950px;
+    justify-content: center;
+    margin: 20px auto;   
+}
+
+.contatos .informacoes .linkedin svg{
+    color: white;
+}
+
+.contatos .informacoes .insta svg{
+    color: blue;
+}
+
+.contatos .informacoes .twitter svg{
+    color: #00ffff;
+}
+
+.contatos .informacoes .fone svg{
+    color: green;
+}
+
+.contatos .informacoes .face svg{
+    color: green;
+}
+
+.contatos .informacoes .desenvolvido {
+    display: flex;
+    justify-content: center;
+}
